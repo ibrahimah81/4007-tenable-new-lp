@@ -1,0 +1,14 @@
+<svg width="1440" height="384" viewBox="0 0 1440 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_3068_6033" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="384">
+<path d="M0 0H1440V384H0V0Z" fill="#032C5D"/>
+</mask>
+<g mask="url(#mask0_3068_6033)">
+<rect width="1440" height="384" fill="url(#paint0_radial_3068_6033)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_3068_6033" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720) rotate(90) scale(384 720)">
+<stop stop-color="#0056C9"/>
+<stop offset="1" stop-color="#041C3C"/>
+</radialGradient>
+</defs>
+</svg>
