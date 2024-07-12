@@ -3544,6 +3544,10 @@ a.pro-buy-cta:hover {
 }
 
 @media (max-width: 767.98px) {
+  .spz-4007 .nessus-pro {
+    background: linear-gradient(180deg, #ecf6ff 0%, #fff 100%) !important;
+    background-image: unset;
+  }
   .footer {
     padding: 30px 0 28px !important;
   }
