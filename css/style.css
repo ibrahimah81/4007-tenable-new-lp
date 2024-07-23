@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *,
 *:before,
 *:after {
@@ -168,7 +168,7 @@ a {
   text-decoration: none;
   color: #ffffff;
   text-align: center;
-  font-family: "Barlow";
+  font-family: 'Barlow';
 }
 .cta-wrapper .button:hover {
   background: #006bc4;
@@ -200,7 +200,7 @@ a {
 
 .section-products .expert-buy-cta,
 .mobile-only .expert-buy-cta {
-  font-family: Barlow, "sans-serif";
+  font-family: Barlow, 'sans-serif';
   font-style: normal;
   min-height: 48px;
   height: 100%;
@@ -231,7 +231,7 @@ a {
 
 /* section customer slider started  */
 .customer-reviews {
-  background-image: url("../images/testimonials-bg-desktop.svg");
+  background-image: url('../images/testimonials-bg-desktop.svg');
   background-position: center;
   background-size: cover;
   padding: 96px 0 0;
@@ -250,7 +250,7 @@ a {
   text-align: center;
   color: #ffffff;
   margin-bottom: 56px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
 }
 .customer-reviews .slider-wrapper {
@@ -384,7 +384,7 @@ a {
   border: 4px solid rgba(255, 255, 255, 0.12);
 }
 .customer-reviews .large-slider .slick-dots li.slick-active::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 24px;
   height: 24px;
@@ -407,7 +407,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .customer-reviews {
-    background-image: url("../images/testimonials-bg-tablet.svg");
+    background-image: url('../images/testimonials-bg-tablet.svg');
     padding: 77px 0 33px;
   }
   .customer-reviews h2 {
@@ -439,7 +439,7 @@ a {
 @media (max-width: 767.98px) {
   .customer-reviews {
     padding: 64px 0 14px;
-    background-image: url("../images/testimonials-bg-mobile.svg");
+    background-image: url('../images/testimonials-bg-mobile.svg');
   }
   .customer-reviews h2 {
     font-size: 32px;
@@ -708,7 +708,7 @@ a {
   > div
   > div
   a.pro-buy-cta {
-  font-family: Barlow, "sans-serif";
+  font-family: Barlow, 'sans-serif';
   font-style: normal;
   height: 100%;
   display: -webkit-box;
@@ -829,7 +829,7 @@ a {
   line-height: 27px;
   text-align: center;
   color: #385168;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .comparison-table
@@ -1212,7 +1212,7 @@ a {
     padding-bottom: 6px;
   }
   .comparison-table .nessus-btn {
-    font-family: "Barlow", "sans-serif";
+    font-family: 'Barlow', 'sans-serif';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -1240,7 +1240,7 @@ a {
   }
   .comparison-table .expert-buy-cta,
   .comparison-table .pro-buy-cta {
-    font-family: "Barlow", "sans-serif";
+    font-family: 'Barlow', 'sans-serif';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1284,7 +1284,7 @@ a {
 .comparison-table-title {
   color: #041e42;
   text-align: center;
-  font-family: "Barlow";
+  font-family: 'Barlow';
   max-width: 900px;
   width: 100%;
   margin: 0 auto 128px;
@@ -1305,7 +1305,7 @@ a {
   > div
   > div
   a.pro-try-cta {
-  font-family: Barlow, "sans-serif";
+  font-family: Barlow, 'sans-serif';
   font-style: normal;
   height: 100%;
   display: -webkit-box;
@@ -1506,7 +1506,7 @@ a {
   .table-wrapper
   .comparison-inner-wrapper
   > div:last-child:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 269px;
   height: 86px;
@@ -1561,7 +1561,7 @@ a {
   .comparison-inner-wrapper
   > .nessus-expert
   > div:not(:first-child):not(:last-child)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: -16px;
   top: 0;
@@ -2290,7 +2290,7 @@ a {
 .section-testimonial .testimonial-title {
   max-width: 794px;
   width: 100%;
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -2301,7 +2301,7 @@ a {
 }
 
 .section-testimonial .tenable-demo-btn {
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -2330,7 +2330,7 @@ a {
 }
 .section-testimonial {
   background-size: cover;
-  background-image: url("../images/predict-what-matters-desktop.jpg");
+  background-image: url('../images/predict-what-matters-desktop.jpg');
   background-repeat: no-repeat;
   background-position: center;
   padding: 94px 120px 103px 120px;
@@ -2343,7 +2343,7 @@ a {
   margin-bottom: 32px;
 }
 .section-testimonial .above-title {
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -2355,7 +2355,7 @@ a {
   margin: 0px auto 40px;
 }
 .section-testimonial .buy-nessus {
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -2382,7 +2382,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .section-testimonial {
-    background-image: url("../images/predict-what-matters-tablet.jpg");
+    background-image: url('../images/predict-what-matters-tablet.jpg');
     padding: 63px 2px 65px;
   }
   .section-testimonial .tenable-demo-btn {
@@ -2391,7 +2391,7 @@ a {
 }
 @media (max-width: 767.98px) {
   .section-testimonial {
-    background-image: url("../images/predict-what-matters-mobile.jpg");
+    background-image: url('../images/predict-what-matters-mobile.jpg');
     padding: 30px 3px 32px;
   }
   .section-testimonial .testimonial-title {
@@ -2482,7 +2482,7 @@ a {
   background-color: transparent;
   color: #fff;
   font-style: normal;
-  font-family: system-ui, -apple-system, roboto, "segoe ui", sans-serif;
+  font-family: system-ui, -apple-system, roboto, 'segoe ui', sans-serif;
   font-size: 33px;
   line-height: 44px;
   display: inline;
@@ -2634,7 +2634,7 @@ a {
   margin: 0;
 }
 .mfp-wrap * {
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
 }
 .mfp-wrap h3 {
   font-size: 1.5em;
@@ -2688,16 +2688,16 @@ a {
 .mfp-wrap input {
   line-height: normal;
 }
-.mfp-wrap input[type="text"],
-.mfp-wrap input[type="password"],
-.mfp-wrap input[type="email"],
-.mfp-wrap input[type="tel"],
-.mfp-wrap input[type="date"],
-.mfp-wrap input[type="datetime-local"],
-.mfp-wrap input[type="number"],
-.mfp-wrap input[type="search"],
-.mfp-wrap input[type="time"],
-.mfp-wrap input[type="url"],
+.mfp-wrap input[type='text'],
+.mfp-wrap input[type='password'],
+.mfp-wrap input[type='email'],
+.mfp-wrap input[type='tel'],
+.mfp-wrap input[type='date'],
+.mfp-wrap input[type='datetime-local'],
+.mfp-wrap input[type='number'],
+.mfp-wrap input[type='search'],
+.mfp-wrap input[type='time'],
+.mfp-wrap input[type='url'],
 .mfp-wrap textarea {
   border: 1px solid #ccc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2714,8 +2714,8 @@ a {
   font-size: 17px;
   padding: 12px 16px;
 }
-.mfp-wrap [id^="t-eval-"] .invalid,
-.mfp-wrap [id^="t-npo-"] .invalid {
+.mfp-wrap [id^='t-eval-'] .invalid,
+.mfp-wrap [id^='t-npo-'] .invalid {
   border-color: #e24301 !important;
 }
 .mfp-wrap .eval-error {
@@ -2788,7 +2788,7 @@ a {
 .mfp-wrap .subnav .menu:after,
 .mfp-wrap .legend__content:after,
 .mfp-wrap .tech-select__item:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .mfp-wrap .clearfix:after,
@@ -2859,16 +2859,16 @@ select {
   animation-fill-mode: both;
 }
 button,
-.mfp-wrap input[type="button"],
-input[type="reset"],
-.mfp-wrap input[type="submit"] {
+.mfp-wrap input[type='button'],
+input[type='reset'],
+.mfp-wrap input[type='submit'] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 .mfp-wrap .btn,
 .mfp-wrapbutton,
 .mfp-wrap.mfp-wrap .form-submit,
-.mfp-wrapinput[type="submit"] {
+.mfp-wrapinput[type='submit'] {
   color: #425363;
   background: #eeeff0;
   line-height: 1.1;
@@ -2882,7 +2882,7 @@ input[type="reset"],
 }
 .btn-primary,
 .form-submit,
-.mfp-wrap input[type="submit"] {
+.mfp-wrap input[type='submit'] {
   color: #fff !important;
   background-color: #007bff;
   border-color: #007bff;
@@ -2900,17 +2900,17 @@ input[type="reset"],
   font-size: 17px;
   padding: 12px 16px;
 }
-input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-.mfp-wrap input[type="button"].btn-block {
+input[type='submit'].btn-block,
+input[type='reset'].btn-block,
+.mfp-wrap input[type='button'].btn-block {
   width: 100%;
 }
-.mfp-wrap input[type="submit"] {
+.mfp-wrap input[type='submit'] {
   background-color: #f87b1e;
   width: 100%;
 }
-.mfp-wrap input[type="submit"]:hover,
-.mfp-wrap input[type="submit"]:focus {
+.mfp-wrap input[type='submit']:hover,
+.mfp-wrap input[type='submit']:focus {
   background-color: #d16617;
 }
 .mfp-wrap small {
@@ -2941,8 +2941,8 @@ a:hover {
   font-weight: normal;
 }
 
-.mfp-wrap [id^="t-eval-"] .error-msg,
-.mfp-wrap [id^="t-npo-"] .error-msg {
+.mfp-wrap [id^='t-eval-'] .error-msg,
+.mfp-wrap [id^='t-npo-'] .error-msg {
   background: #e24301;
   color: #fff;
   padding: 1em;
@@ -3085,7 +3085,7 @@ a:hover {
   box-sizing: border-box;
 }
 .mfp-container:before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -3196,7 +3196,7 @@ button.mfp-close:hover {
 }
 .mfp-wrap .try-buy-modal__nav::after {
   display: block;
-  content: "";
+  content: '';
   clear: both;
 }
 .mfp-wrap .try-buy-modal__nav a span {
@@ -3349,20 +3349,20 @@ a.pro-buy-cta:hover {
 }
 .spz-4007 .nessus-pro {
   position: relative;
-  background-image: url("../images/nessus-pro-bg-md.webp");
+  background-image: url('../images/nessus-pro-bg-md.webp');
   background-size: cover;
   background-position: center bottom;
 }
 
 @media (min-width: 1200px) {
   .spz-4007 .nessus-pro {
-    background-image: url("../images/nessus-pro-bg-lg.webp");
+    background-image: url('../images/nessus-pro-bg-lg.webp');
   }
 }
 
 @media (min-width: 1600px) {
   .spz-4007 .nessus-pro {
-    background-image: url("../images/nessus-pro-bg-xl.webp");
+    background-image: url('../images/nessus-pro-bg-xl.webp');
   }
 }
 
@@ -3536,7 +3536,7 @@ a.pro-buy-cta:hover {
   text-align: center;
 }
 .footer .container {
-  font-family: "Barlow", "sans-serif";
+  font-family: 'Barlow', 'sans-serif';
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -3563,7 +3563,7 @@ a.pro-buy-cta:hover {
   color: #385168;
   position: relative;
   font-weight: 400;
-  font-family: "barlow";
+  font-family: 'barlow';
   margin-left: 3px;
 }
 .footer .footer-links {
