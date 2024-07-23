@@ -2,27 +2,133 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UPGRADE TO NESSUS </title>
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tenable Multiproduct</title>
+  <meta name="description" content="The World’s First Cyber Exposure Platform ">
+  <!-- crazy egg added -->
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0063/4307.js" async="async"></script>
   <link rel="apple-touch-icon" sizes="180x180"
-    href="https://www.tenable.com/themes/custom/tenable/img/favicons/apple-touch-icon.png">
+    href="https://www.tenable.com/themes/custom/tenable/img/favicons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32"
-    href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon-32x32.png">
+    href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16"
-    href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="https://www.tenable.com/themes/custom/tenable/img/favicons/manifest.json">
+    href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="https://www.tenable.com/themes/custom/tenable/img/favicons/manifest.json" />
   <link rel="mask-icon" href="https://www.tenable.com/themes/custom/tenable/img/favicons/safari-pinned-tab.svg"
-    color="#00a5b5">
-  <link rel="shortcut icon" href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon.ico">
-  <link rel="stylesheet" href="https://www.tenable.com/lp/assets/css/slick.css">
+    color="#00a5b5" />
+  <link rel="shortcut icon" href="https://www.tenable.com/themes/custom/tenable/img/favicons/favicon.ico" />
+  <link rel="stylesheet" href="https://www.tenable.com/lp/assets/css/slick.css" />
   <link rel="stylesheet" href="./css/style.css" />
 
+  <!-- Google Tag Manager -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("consent", "default", {
+      ad_storage: "granted",
+      analytics_storage: "granted",
+      wait_for_update: 5000,
+    });
+
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      analytics_storage: "denied",
+      wait_for_update: 5000,
+      region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LA',
+        'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'IS', 'LI', 'NO', 'CH', 'CA'
+      ],
+    });
+
+    gtag("set", "ads_data_redaction", true);
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NBM4TM');
+
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Add pixel code -->
+  <script>
+    (function (options) {
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = "https://metadata-static-files.sfo2.cdn.digitaloceanspaces.com/pixel/lp.js";
+      s.onload = function () {
+        window.Metadata.pixel.init(options);
+      };
+      document.head.appendChild(s);
+    })({
+      primaryKey: "name"
+    });
+
+  </script>
+
+  <!-- Script for Mutiny -->
+  <script>
+    (function () {
+      var a = window.mutiny = window.mutiny || {};
+      if (!window.mutiny.client) {
+        a.client = {
+          _queue: {}
+        };
+        var b = ["identify", "trackConversion"];
+        var c = [].concat(b, ["defaultOptOut", "optOut", "optIn"]);
+        var d = function factory(c) {
+          return function () {
+            for (var d = arguments.length, e = new Array(d), f = 0; f < d; f++) {
+              e[f] = arguments[f]
+            }
+            a.client._queue[c] = a.client._queue[c] || [];
+            if (b.includes(c)) {
+              return new Promise(function (b, d) {
+                a.client._queue[c].push({
+                  args: e,
+                  resolve: b,
+                  reject: d
+                })
+              })
+            } else {
+              a.client._queue[c].push({
+                args: e
+              })
+            }
+          }
+        };
+        c.forEach(function (b) {
+          a.client[b] = d(b)
+        })
+      }
+    })();
+
+  </script>
+  <script data-cfasync="false" src="https://client-registry.mutinycdn.com/personalize/client/3feac35d107ad216.js">
+  </script>
+  <!--End Script for Mutiny -->
 </head>
 
 <body class="try-nessus-multiproduct spz-4007">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBM4TM" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <!-- Section Nessus Pro Started -->
   <section class="nessus-pro">
     <!-- header started -->
@@ -31,14 +137,14 @@
         <div class="header-wrapper">
           <div class="logo-wrapper">
             <a class="tenable-logo" href="https://www.tenable.com/">
-              <img class="logo-lg" src="images/logo-tenable.svg" alt="tenable logo">
-              <img class="logo-md" src="images/tenable-one-logo-tablet.svg" alt="tenable logo tablet">
+              <img class="logo-lg" src="images/logo-tenable.svg" alt="tenable logo" />
+              <img class="logo-md" src="images/tenable-one-logo-tablet.svg" alt="tenable logo tablet" />
             </a>
           </div>
         </div>
       </div>
     </div>
-   <!-- header ended -->
+    <!-- header ended -->
     <div class="nessus-container">
       <div class="row align-items-center">
         <div class="col-md-6">
@@ -47,8 +153,8 @@
               <span>Why Upgrade </span>to Nessus Professional?
             </h1>
             <p>
-              Nessus Professional provides you with unlimited scanning, exportable
-              reports, and IT configuration compliance audits.
+              Nessus Professional provides unlimited scanning,
+              exportable reports, and IT configuration compliance audits.
             </p>
             <div class="nessus-pro__content--bullets">
               <ul>
@@ -64,8 +170,9 @@
                     </svg>
                   </div>
                   <div class="bullets-inner-content">
-                    <span>Unlimited scanning</span> of your IT assets to identify
-                    vulnerabilities and prioritize remediation efforts.
+                    <span>Unlimited scanning</span> of your IT assets to
+                    identify vulnerabilities and prioritize remediation
+                    efforts.
                   </div>
                 </li>
                 <li>
@@ -80,8 +187,8 @@
                     </svg>
                   </div>
                   <div class="bullets-inner-content">
-                    <span>Configurable reports</span> for easy customization with
-                    client name and logo and exporting capabilities.
+                    <span>Configurable reports</span> for easy customization
+                    with client name and logo and exporting capabilities.
                   </div>
                 </li>
                 <li>
@@ -97,24 +204,24 @@
                   </div>
                   <div class="bullets-inner-content">
                     <span>450+ compliance templates</span> to audit config
-                    compliance <br> against CIS benchmarks and more.
+                    compliance <br />
+                    against CIS benchmarks and more.
                   </div>
                 </li>
               </ul>
             </div>
             <div class="nessus-pro__content--button">
-              <a href="https://www.tenable.com/products/nessus-pro/buy">UPGRADE NOW</a>
+              <a
+                href="https://store.tenable.com/1479/?scope=checkout&cart=192368&x-Source=SEM&recommendation=supportandtraining">UPGRADE
+                NOW</a>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="nessus-pro__img">
-            <img src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/tenable/4007/frame_1171275296.webp"
-              alt="Nessus Professional" class="nessus-pro__img--xl" />
-            <img src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/tenable/4007/frame_1171275235.webp"
-              alt="Nessus Professional" class="nessus-pro__img--lg" />
-              <img src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/tenable/4007/frame_1171275237.webp"
-              alt="Nessus Professional" class="nessus-pro__img--md" />
+            <img src="./images/frame_1171275297.webp" alt="Nessus Professional" class="nessus-pro__img--xl" />
+            <img src="./images/frame_1171275244.webp" alt="Nessus Professional" class="nessus-pro__img--lg" />
+            <img src="./images/frame_1171275246.webp" alt="Nessus Professional" class="nessus-pro__img--md" />
           </div>
         </div>
       </div>
@@ -125,16 +232,17 @@
     <div class="container">
       <div class="table-wrapper">
         <div class="comparison-title-wrapper">
-          <div>
-          </div>
+          <div></div>
           <div>
             <p>Number of Scanned Assets</p>
           </div>
-          <div>
-            <p>Compliance Checks and <br>
-Content Audits</p>
+          <div class="mh-md-74">
+            <p>
+              Compliance Checks and <br />
+              Content Audits
+            </p>
           </div>
-          <div>
+          <div class="mh-md-47">
             <p>Analytics & Reporting</p>
           </div>
           <div>
@@ -146,35 +254,60 @@ Content Audits</p>
           <div class="nessus-professional">
             <div>
               <div class="logo-wrap">
-                <img src="https://res.cloudinary.com/spiralyze/image/upload/v1719465522/tenable/4007/nessus_essentials.svg"
-                  alt="Nessus Essentials">
+                <img src="https://static.tenable.com/press/logos/2023/Nessus-Essentials-White-RGB-logo.svg"
+                  alt="Nessus Essentials" />
                 <p class="headlines">FREE</p>
               </div>
-              <p class="sub-headlines">For educators, students, and individuals learning the foundations of assessing IT infrastructure for vulnerabilities.</p>
+              <p class="sub-headlines">
+                For educators, students, and individuals learning the
+                foundations of assessing IT infrastructure for
+                vulnerabilities.
+              </p>
             </div>
-            <div class="mh-md-74">Up to 16 IPs</div>
-            <div class="mh-82 mh-md-74"><img src="./images/cross.svg" alt="Checkmark Checked"></div>
-            <div><img src="./images/cross.svg" alt="Checkmark Checked"></div>
-            <div><img src="./images/cross.svg" alt="Checkmark Checked"></div>
+            <div>Up to 16 IPs</div>
+            <div class="mh-82 mh-md-74">
+              <img src="./images/cross.svg" alt="Checkmark Checked" />
+            </div>
+            <div class="mh-md-47">
+              <img src="./images/cross.svg" alt="Checkmark Checked" />
+            </div>
+            <div>
+              <img src="./images/cross.svg" alt="Checkmark Checked" />
+            </div>
           </div>
           <div class="nessus-expert">
             <div>
               <div class="logo-wrap">
-                <img src="https://res.cloudinary.com/spiralyze/image/upload/v1719465522/tenable/4007/tenable_nessus_professional.svg"
-                  alt="Nessus Professional">
-                <p class="headlines">Starting at <strong>$3,990</strong></p>
+                <img src="./images/tenable_nessus_professional.svg" alt="Nessus Professional" />
+                <span class="nessus-pro-buy-now headlines">
+                  <span class="nessus-pro-price-one-year"><strong>$3,990</strong></span>
+                  <span class="nessus-pro-price-one-year-vat hidden">*</span>
+                  per year
+                  <p class="nessus-pro-buy-vat hidden">
+                    <small>*VAT incl.</small>
+                  </p>
+                </span>
               </div>
-              <p class="sub-headlines">For security practitioners, pentesters, consultants, and SMBsin need of unlimited vulnerability
-assessments to assess and audit IT networks.</p>
+              <p class="sub-headlines">
+                For security practitioners, pentesters, consultants, and
+                SMBsin need of unlimited vulnerability assessments to assess
+                and audit IT networks.
+              </p>
             </div>
-            <div class="mh-md-74">Unlimited</div>
-            <div class="mh-82 mh-md-74"><img src="./images/check.svg" alt="Checkmark Checked"></div>
-            <div><img src="./images/check.svg" alt="Checkmark Checked"></div>
-            <div><img src="./images/check.svg" alt="Checkmark Checked"></div>
+            <div>Unlimited</div>
+            <div class="mh-82 mh-md-74">
+              <img src="./images/check.svg" alt="Checkmark Checked" />
+            </div>
+            <div class="mh-md-47">
+              <img src="./images/check.svg" alt="Checkmark Checked" />
+            </div>
             <div>
-              <a href="https://store.tenable.com/1479/?scope=checkout&cart=242098&x-Source=SEM&recommendation=supportandtraining"
-                target="_blank" class="button nessus-btn pro-link">Upgrade Now</a>
-              <a href="#nessus-expert-cta" class="expert-try-cta lightbox-content">Try Nessus Professional Now</a>
+              <img src="./images/check.svg" alt="Checkmark Checked" />
+            </div>
+            <div>
+              <a href="https://store.tenable.com/1479/?scope=checkout&cart=192368&x-Source=SEM&recommendation=supportandtraining"
+                target="_blank" class="button nessus-btn expert-link">Upgrade Now</a>
+              <a href="#nessus-pro" class="expert-try-cta lightbox-content">Try Nessus Professional Now</a>
             </div>
           </div>
         </div>
@@ -183,20 +316,33 @@ assessments to assess and audit IT networks.</p>
             <div class="wrap-product-flex">
               <div class="nessus-professional">
                 <div class="logo-wrap">
-                  <img src="https://res.cloudinary.com/spiralyze/image/upload/v1719465522/tenable/4007/nessus_essentials.svg"
-                    alt="Nessus Essentials">
+                  <img src="https://static.tenable.com/press/logos/2023/Nessus-Essentials-White-RGB-logo.svg"
+                    alt="Nessus Essentials" />
                 </div>
                 <p class="headlines">FREE</p>
-                <p class="sub-headlines">For educators, students, and individuals learning the foundations of assessing IT infrastructure for vulnerabilities.</p>
+                <p class="sub-headlines">
+                  For educators, students, and individuals learning the
+                  foundations of assessing IT infrastructure for
+                  vulnerabilities.
+                </p>
               </div>
               <div class="nessus-expert">
                 <div class="logo-wrap">
-                  <img src="https://static.tenable.com/press/logos/2023/Nessus-Expert-stacked-White-RGB-logo.svg"
-                    alt="Nessus Expert">
+                  <img src="./images/tenable_nessus_professional.svg" alt="Tenable Nessus Professional" />
                 </div>
-                <p class="headlines">Starting at <strong>$3,990</strong></p>
-                <p class="sub-headlines">For security practitioners,
-pentesters, consultants, and SMBs in need of unlimited vulnerability assessments to assess and audit IT networks.</p>
+                <span class="headlines">
+                  <span class="nessus-pro-price-one-year"><strong>$3,990</strong></span>
+                  <span class="nessus-pro-price-one-year-vat hidden">*</span>
+                  per year
+                  <p class="nessus-pro-buy-vat hidden">
+                    <small>*VAT incl.</small>
+                  </p>
+                </span>
+                <p class="sub-headlines">
+                  For security practitioners, pentesters, consultants, and
+                  SMBs in need of unlimited vulnerability assessments to
+                  assess and audit IT networks.
+                </p>
               </div>
             </div>
             <div class="block-title">
@@ -215,8 +361,11 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
 
           <div class="wrap-product">
             <div class="wrap-product-flex">
-              <div><img src="./images/cross.svg" alt="Checkmark Checked"></div>
-              <div><img src="./images/check.svg" alt="Checkmark Checked">
+              <div>
+                <img src="./images/cross.svg" alt="Checkmark Checked" />
+              </div>
+              <div>
+                <img src="./images/check.svg" alt="Checkmark Checked" />
               </div>
             </div>
             <div>
@@ -226,8 +375,11 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
 
           <div class="wrap-product">
             <div class="wrap-product-flex">
-              <div><img src="./images/cross.svg" alt="Checkmark Checked"></div>
-              <div><img src="./images/check.svg" alt="Checkmark Checked">
+              <div>
+                <img src="./images/cross.svg" alt="Checkmark Checked" />
+              </div>
+              <div>
+                <img src="./images/check.svg" alt="Checkmark Checked" />
               </div>
             </div>
             <div>
@@ -236,8 +388,11 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
           </div>
           <div class="wrap-product">
             <div class="wrap-product-flex">
-              <div><img src="./images/cross.svg" alt="Checkmark Checked"></div>
-              <div><img src="./images/check.svg" alt="Checkmark Checked">
+              <div>
+                <img src="./images/cross.svg" alt="Checkmark Checked" />
+              </div>
+              <div>
+                <img src="./images/check.svg" alt="Checkmark Checked" />
               </div>
             </div>
           </div>
@@ -248,81 +403,14 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
               <div class="expert-cta-wrap">
                 <a href="#nessus-expert-cta" target="_blank"
                   class="button product-button nessus-btn lightbox-content">Upgrade Now</a>
-                <a href="#"
-                  class="expert-buy-cta pro-link">Try Nessus Professional Now</a>
+                <a href="#" class="expert-buy-cta pro-link">Try Nessus Professional Now</a>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
-
-
-
-  <!-- section Comparison Table started -->
-  <!-- <section class="comparison-table">
-        <div class="container">
-            <div class="table-wrapper">
-                <div class="comparison-title-wrapper">
-                    <div>
-                    </div>
-                    <div><p>Number of Scanned Assets</p></div>
-                    <div><p>Compliance Checks and <br> Content Audits</p></div>
-                    <div><p>Analytics & Reporting</p></div>
-                    <div><p>Support</p></div>
-                    <div></div>
-                </div>
-                <div class="comparison-inner-wrapper">
-                    <div class="nessus-professional">
-                        <div>
-                            <div class="logo-wrap">
-                                <img src="https://res.cloudinary.com/spiralyze/image/upload/v1719465522/tenable/4007/nessus_essentials.svg" alt="Nessus Essentials">
-                                <p class="headlines">FREE</p>
-                            </div>
-                            <p class="sub-headlines">For educators, students, and individuals learning the foundations of assessing IT infrastructure for vulnerabilities.</p>
-                        </div>
-                        <div>Up to 16 IPs</div>
-                        <div>
-                          <img src="./images/cross.svg" alt="Checkmark Checked">
-                        </div>
-                        <div>
-                          <img src="./images/cross.svg" alt="Checkmark Checked">
-                        </div>
-                        <div>
-                          <img src="./images/cross.svg" alt="Checkmark Checked">
-                        </div>
-                    </div>
-                    <div class="nessus-expert">
-                        <div>
-                            <div class="logo-wrap">
-                                <img src="https://res.cloudinary.com/spiralyze/image/upload/v1719465522/tenable/4007/tenable_nessus_professional.svg" alt="Nessus Professional">
-                                <p class="headlines">Starting at $3,990</p>
-                            </div>
-                            <p class="sub-headlines">For security practitioners, pentesters, consultants, and SMBsin need of unlimited vulnerability assessments to assess and audit IT networks.</p>
-                        </div>
-                        <div>Unlimited</div>
-                        <div>
-                          <img src="./images/check.svg" alt="Checkmark Checked">
-                        </div>
-                        <div>
-                          <img src="./images/check.svg" alt="Checkmark Checked">
-                        </div>
-                        <div>
-                          <img src="./images/check.svg" alt="Checkmark Checked">
-                        </div>
-                        <div>
-                            <a href="https://store.tenable.com/1479/?scope=checkout&amp;cart=242098&amp;x-Source=SEM&amp;recommendation=supportandtraining" target="_blank" class="button nessus-btn pro-link">Upgrade Now</a>
-                            <a href="#nessus-expert-cta" class="expert-try-cta lightbox-content">
-                              Try Nessus Professional Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
   <!-- section Comparison Table ended -->
   <!-- section customer Slider started -->
   <section class="customer-reviews">
@@ -332,9 +420,9 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
         <div class="large-slider">
           <div class="slider-item">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/matthew-s-large-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/matthew-s-large-tablet.jpg">
-              <img src="./images/matthew-s-large-mobile.jpg" alt="Matthew S">
+              <source media="(min-width:992px)" srcset="./images/matthew-s-large-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/matthew-s-large-tablet.jpg" />
+              <img src="./images/matthew-s-large-mobile.jpg" alt="Matthew S" />
             </picture>
             <div class="play-icon" data-videoid="aZgAjBnPTAc">
               <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -346,9 +434,9 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
           </div>
           <div class="slider-item">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/evan-l-large-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/evan-l-large-tablet.jpg">
-              <img src="./images/evan-l-large-mobile.jpg" alt="Evan L">
+              <source media="(min-width:992px)" srcset="./images/evan-l-large-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/evan-l-large-tablet.jpg" />
+              <img src="./images/evan-l-large-mobile.jpg" alt="Evan L" />
             </picture>
             <div class="play-icon" data-videoid="rhEZqBZqC5A">
               <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -360,9 +448,9 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
           </div>
           <div class="slider-item">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/dustin-l-large-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/dustin-l-large-tablet.jpg">
-              <img src="./images/dustin-l-large-mobile.jpg" alt="Dustin L">
+              <source media="(min-width:992px)" srcset="./images/dustin-l-large-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/dustin-l-large-tablet.jpg" />
+              <img src="./images/dustin-l-large-mobile.jpg" alt="Dustin L" />
             </picture>
             <div class="play-icon" data-videoid="PzzqupPz7go">
               <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,23 +464,23 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
         <div class="small-slider">
           <div class="slider-content">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/matthew-s-small-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/matthew-s-small-tablet.jpg">
-              <img src="./images/matthew-s-small-mobile.jpg" alt="Matthew S">
+              <source media="(min-width:992px)" srcset="./images/matthew-s-small-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/matthew-s-small-tablet.jpg" />
+              <img src="./images/matthew-s-small-mobile.jpg" alt="Matthew S" />
             </picture>
           </div>
           <div class="slider-content">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/dustin-l-small-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/dustin-l-small-tablet.jpg">
-              <img src="./images/dustin-l-small-mobile.jpg" alt="Dustin L">
+              <source media="(min-width:992px)" srcset="./images/dustin-l-small-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/dustin-l-small-tablet.jpg" />
+              <img src="./images/dustin-l-small-mobile.jpg" alt="Dustin L" />
             </picture>
           </div>
           <div class="slider-content">
             <picture>
-              <source media="(min-width:992px)" srcset="./images/evan-l-small-desktop.jpg">
-              <source media="(min-width:768px)" srcset="./images/evan-l-small-tablet.jpg">
-              <img src="./images/evan-l-small-mobile.jpg" alt="Evan L">
+              <source media="(min-width:992px)" srcset="./images/evan-l-small-desktop.jpg" />
+              <source media="(min-width:768px)" srcset="./images/evan-l-small-tablet.jpg" />
+              <img src="./images/evan-l-small-mobile.jpg" alt="Evan L" />
             </picture>
           </div>
         </div>
@@ -405,11 +493,11 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
   <section class="badges">
     <div class="container">
       <div class="badges-wrapper">
-        <img src="./images/G2-01.webp" alt="Easiest To Use">
-        <img src="./images/G2-02.webp" alt="Leader mid market">
-        <img src="./images/G2-03.webp" alt="Leader small business">
-        <img src="./images/G2-04.webp" alt="Momentum Leader">
-        <img src="./images/G2-05.webp" alt="Top 50 Products">
+        <img src="./images/G2-01.webp" alt="Easiest To Use" />
+        <img src="./images/G2-02.webp" alt="Leader mid market" />
+        <img src="./images/G2-03.webp" alt="Leader small business" />
+        <img src="./images/G2-04.webp" alt="Momentum Leader" />
+        <img src="./images/G2-05.webp" alt="Top 50 Products" />
       </div>
     </div>
   </section>
@@ -420,8 +508,11 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
       <div class="section-testimonial">
         <div class="product-testimonial nessus-expert nessus-expert" data-card-detail="0">
           <div class="container section-testimonial-container">
-            <h3 class="testimonial-title">Nessus Professional is the #1 vulnerability assessment tool on the market,
-              trusted by security practitioners, consultants, and pen testers around the globe.</h3>
+            <h3 class="testimonial-title">
+              Nessus Professional is the #1 vulnerability assessment tool on
+              the market, trusted by security practitioners, consultants, and
+              pen testers around the globe.
+            </h3>
             <a href="#nessus-expert-cta" target="_blank"
               class="button tenable-demo-btn tenable-io-demo-btn lightbox-content">I’M READY TO UPGRADE</a>
           </div>
@@ -437,13 +528,17 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
         <div class="copyright">
           ©
           <script>
-            document.write(new Date().getFullYear())
-          </script> Tenable® Inc. All rights reserved.
+            document.write(new Date().getFullYear());
+
+          </script>
+          Tenable® Inc. All rights reserved.
         </div>
         <div class="footer-links">
-          <a href="https://www.tenable.com/privacy-policy" target="_blank">Privacy Policy</a> |
+          <a href="https://www.tenable.com/privacy-policy" target="_blank">Privacy Policy</a>
+          |
           <a href="https://www.tenable.com/privacy-policy#california-rights" target="_blank">Do Not Sell/Share My
-            Personal Information</a> |
+            Personal Information</a>
+          |
           <a href="https://www.tenable.com/legal" target="_blank">Legal</a> |
           <a href="https://www.tenable.com/section-508-voluntary-product-accessibility" target="_blank">508
             Compliance</a>
@@ -486,6 +581,7 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
       text-align: center;
       padding-bottom: 1em;
     }
+
   </style>
   <div class="try-buy-modal nessus nessus-expert mfp-hide js-tab-wrap" id="nessus-expert-cta">
     <div class="try-buy-modal__nav" id="price-info-tab">
@@ -495,11 +591,15 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
     <div class="try-buy-modal__content js-tab-content try js-active content-01">
       <h3>Try Tenable Nessus Expert Free</h3>
       <span class="tagline">FREE FOR 7 DAYS</span>
-      <p>Built for the modern attack surface, Nessus Expert enables you to see more and protect your organization from
-        vulnerabilities from IT to the cloud.</p>
-      <p><strong>Already have Tenable Nessus Professional? <a
-            href="/products/nessus/nessus-expert/evaluate/upgrade"></strong><br>Upgrade to Nessus Expert free for 7
-        days.</a></p>
+      <p>
+        Built for the modern attack surface, Nessus Expert enables you to see
+        more and protect your organization from vulnerabilities from IT to the
+        cloud.
+      </p>
+      <p>
+        <strong>Already have Tenable Nessus Professional?</strong><br /><a
+          href="/products/nessus/nessus-expert/evaluate/upgrade">Upgrade to Nessus Expert free for 7 days.</a>
+      </p>
       <div class="try-buy-modal__form try eval-form-box">
         <tenable-evaluation class="nessus-trial-form-modal-secondary" type="expert" hide-headings="true"
           hide-labels="true"></tenable-evaluation>
@@ -520,58 +620,66 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
         .nessus-expert-button {
           margin: 30px 0 0 !important;
         }
+
       </style>
       <h3>Buy Tenable Nessus Expert</h3>
-      <p>Built for the modern attack surface, Nessus Expert enables you to see more and protect your organization from
-        vulnerabilities from IT to the cloud.</p>
+      <p>
+        Built for the modern attack surface, Nessus Expert enables you to see
+        more and protect your organization from vulnerabilities from IT to the
+        cloud.
+      </p>
       <!-- START Nessus Buy Widget (change input ID's and label FOR's to be unique) -->
-      <form class="nessus-expert-buy-now" style="padding: 0 15px 15px 0;">
+      <form class="nessus-expert-buy-now" style="padding: 0 15px 15px 0">
         <h4 class="uppercase textcenter">Select Your License</h4>
-        <p class="textcenter"><strong><em>Promotional pricing ends September 30th.</strong><br> Buy a multi-year license
-          and
-          save more.</em></p>
+        <p class="textcenter">
+          <em><strong>Promotional pricing ends September 30th.</strong><br />
+            Buy a multi-year license and save more.</em>
+        </p>
         <label for="nessus-expert-one-year">
           <input class="nessus-expert-option" id="nessus-expert-one-year" type="radio" name="nessus-expert-price"
-            value="webExpertOneYearOptin" checked="">
-          1 Year - <span class="nessus-expert-price-one-year-promo"></span> <span
-            class="nessus-expert-price-one-year">$4,990</span><span
+            value="webExpertOneYearOptin" checked="" />
+          1 Year - <span class="nessus-expert-price-one-year-promo"></span>
+          <span class="nessus-expert-price-one-year">$4,990</span><span
             class="nessus-expert-price-one-year-vat hidden">*</span><span
             class="nessus-expert-price-one-year-discount small hidden">Save</span>
         </label>
         <label for="nessus-expert-two-years">
           <input class="nessus-expert-option" id="nessus-expert-two-years" type="radio" name="nessus-expert-price"
-            value="webExpertTwoYearOptin">
-          2 Years - <span class="nessus-expert-price-two-years-promo"></span> <span
-            class="nessus-expert-price-two-years">$9,730.50</span><span
+            value="webExpertTwoYearOptin" />
+          2 Years - <span class="nessus-expert-price-two-years-promo"></span>
+          <span class="nessus-expert-price-two-years">$9,730.50</span><span
             class="nessus-expert-price-two-years-vat hidden">*</span><span
             class="nessus-expert-price-two-years-discount small hidden">Save</span>
         </label>
         <label for="nessus-expert-three-years">
           <input class="nessus-expert-option" id="nessus-expert-three-years" type="radio" name="nessus-expert-price"
-            value="webExpertThreeYearOptin">
-          3 Years - <span class="nessus-expert-price-three-years-promo"></span> <span
-            class="nessus-expert-price-three-years">$14,221.50</span><span
+            value="webExpertThreeYearOptin" />
+          3 Years -
+          <span class="nessus-expert-price-three-years-promo"></span>
+          <span class="nessus-expert-price-three-years">$14,221.50</span><span
             class="nessus-expert-price-three-years-vat hidden">*</span><span
             class="nessus-expert-price-three-years-discount small hidden">Save</span>
         </label>
         <p class="mt textcenter">Add Support and Training</p>
         <label for="nessus-expert-advanced-support">
           <input class="nessus-expert-option" id="nessus-expert-advanced-support" type="checkbox"
-            name="nessus-expert-support" value="Alwaysin" checked>
-          <strong>Advanced Support - <span
-              class="nessus-expert-adv-sup-price nessus-expert-adv-sup-price-one-year">$400</span></strong><br>
-          <div style="padding-left: 35px; display: block; font-weight: 400;">
-            24x365 Access to phone, email, community, and chat support. <a href="/products/nessus/advanced-support">More
-              info</a>.</div>
+            name="nessus-expert-support" value="Alwaysin" checked />
+          <strong>Advanced Support -
+            <span class="nessus-expert-adv-sup-price nessus-expert-adv-sup-price-one-year">$400</span></strong><br />
+          <div style="padding-left: 35px; display: block; font-weight: 400">
+            24x365 Access to phone, email, community, and chat support.
+            <a href="/products/nessus/advanced-support">More info</a>.
+          </div>
         </label>
 
         <label for="nessus-expert-training">
           <input class="nessus-expert-option" id="nessus-expert-training" type="checkbox" name="nessus-expert-training"
-            value="training">
-          <strong>On-Demand Training - <span
-              class="nessus-expert-course-price-nessus-fundamentals">$195</span></strong><br>
-          1 Year Access to the Nessus Fundamentals On-Demand Video Course for 1 person. <a
-            href="https://static.tenable.com/training/ProServ/ds/PS_DS_NES_Fund_Course.pdf" target="_blank"
+            value="training" />
+          <strong>On-Demand Training -
+            <span class="nessus-expert-course-price-nessus-fundamentals">$195</span></strong><br />
+          1 Year Access to the Nessus Fundamentals On-Demand Video Course for
+          1 person.
+          <a href="https://static.tenable.com/training/ProServ/ds/PS_DS_NES_Fund_Course.pdf" target="_blank"
             rel="noopener noreferrer">More info</a>.
         </label>
         <div class="textcenter">
@@ -583,8 +691,10 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
       </form>
       <!-- END Nessus Buy Widget -->
     </div>
-    <div class="form-bottom-links"><a href="https://community.tenable.com/s/products" target="_blank">Renew an existing
-        license</a> | <a href="/partner-locator/resellers">Find a reseller</a></div>
+    <div class="form-bottom-links">
+      <a href="https://community.tenable.com/s/products" target="_blank">Renew an existing license</a>
+      | <a href="/partner-locator/resellers">Find a reseller</a>
+    </div>
   </div>
   <!-- Nessus Expert Modal End -->
 
@@ -597,9 +707,12 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
     <div class="try-buy-modal__content js-tab-content try js-active content-01">
       <h3>Try Tenable Nessus Professional Free</h3>
       <span class="tagline">FREE FOR 7 DAYS</span>
-      <p>Nessus® is the most comprehensive vulnerability scanner on the market today. Nessus Professional will help
-        automate the vulnerability scanning process, save time in your compliance cycles and allow you to engage
-        your IT team.</p>
+      <p>
+        Nessus® is the most comprehensive vulnerability scanner on the market
+        today. Nessus Professional will help automate the vulnerability
+        scanning process, save time in your compliance cycles and allow you to
+        engage your IT team.
+      </p>
       <div class="try-buy-modal__form try eval-form-box nessus-4part-modal">
         <tenable-evaluation class="nessus-trial-form-modal-secondary" type="nessus" hide-headings="true"
           hide-labels="true"></tenable-evaluation>
@@ -607,11 +720,16 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
     </div>
     <div class="try-buy-modal__content js-tab-content buy content-02" id="buy-nessus-pro">
       <h3>Buy Tenable Nessus Professional</h3>
-      <p>Nessus® is the most comprehensive vulnerability scanner on the market today. Nessus Professional will help
-        automate the vulnerability scanning process, save time in your compliance cycles and allow you to engage
-        your IT team.</p>
-      <p>Buy a multi-year license and save. Add Advanced Support for access to phone, community and chat support 24
-        hours a day, 365 days a year.</p>
+      <p>
+        Nessus® is the most comprehensive vulnerability scanner on the market
+        today. Nessus Professional will help automate the vulnerability
+        scanning process, save time in your compliance cycles and allow you to
+        engage your IT team.
+      </p>
+      <p>
+        Buy a multi-year license and save. Add Advanced Support for access to
+        phone, community and chat support 24 hours a day, 365 days a year.
+      </p>
       <!-- START Nessus Buy Widget (change input ID's and label FOR's to be unique) -->
       <style>
         .nessus-pro-buy-now-modal label {
@@ -650,48 +768,52 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
           margin-left: 0 !important;
           padding-left: 0;
         }
+
       </style>
-      <form class="nessus-pro-buy-now-modal nessus-bundle-buy-now" style="max-width: 100% !important;">
+      <form class="nessus-pro-buy-now-modal nessus-bundle-buy-now" style="max-width: 100% !important">
         <h4 class="uppercase textcenter">Select Your License</h4>
         <p class="textcenter">Buy a multi-year license and save.</p>
         <label for="nessus-bundle-one-year">
           <input class="nessus-bundle-option" id="nessus-bundle-one-year" type="radio" name="nessus-bundle-price"
-            value="webNessusOneYearOptin" checked="">
+            value="webNessusOneYearOptin" checked="" />
           1 Year - <span class="nessus-bundle-price-one-year">$3,390</span><span
             class="nessus-bundle-price-one-year-vat hidden">*</span>
         </label>
         <label for="nessus-bundle-two-years">
           <input class="nessus-bundle-option" id="nessus-bundle-two-years" type="radio" name="nessus-bundle-price"
-            value="webNessusTwoYearOptin">
-          2 Years - <span class="nessus-bundle-price-two-years">$6,610.50</span><span
+            value="webNessusTwoYearOptin" />
+          2 Years -
+          <span class="nessus-bundle-price-two-years">$6,610.50</span><span
             class="nessus-bundle-price-two-years-vat hidden">*</span><span
             class="nessus-bundle-price-two-years-discount small hidden">Save</span>
         </label>
         <label for="nessus-bundle-three-years">
           <input class="nessus-bundle-option" id="nessus-bundle-three-years" type="radio" name="nessus-bundle-price"
-            value="webNessusThreeYearOptin">
-          3 Years - <span class="nessus-bundle-price-three-years">$9,661.50</span><span
+            value="webNessusThreeYearOptin" />
+          3 Years -
+          <span class="nessus-bundle-price-three-years">$9,661.50</span><span
             class="nessus-bundle-price-three-years-vat hidden">*</span><span
             class="nessus-bundle-price-three-years-discount small hidden">Save</span>
         </label>
         <p class="mt textcenter">Add Support and Training</p>
         <label for="nessus-bundle-advanced-support">
           <input class="nessus-pro-option" id="nessus-bundle-advanced-support" type="checkbox"
-            name="nessus-bundle-support" value="Alwaysin" checked>
-          <strong>Advanced Support - <span class="adv-sup-price adv-sup-price-one-year">$400</span></strong><br>
-          <strong style="padding-left: 35px; display: block; font-weight: 400;">24x365 Access to phone, email,
-            community,
-            and chat support. <a href="/products/nessus/nessus-professional/advanced-support">More
-              info</a>.</strong>
+            name="nessus-bundle-support" value="Alwaysin" checked />
+          <strong>Advanced Support -
+            <span class="adv-sup-price adv-sup-price-one-year">$400</span></strong><br />
+          <strong style="padding-left: 35px; display: block; font-weight: 400">24x365 Access to phone, email, community,
+            and chat support.
+            <a href="/products/nessus/nessus-professional/advanced-support">More info</a>.</strong>
         </label>
         <label for="nessus-bundle-training">
           <input class="nessus-pro-option" id="nessus-bundle-training" type="checkbox" name="nessus-bundle-training"
-            value="training">
-          <strong>On-Demand Training - <span class="course-price-nessus-fundamentals">$195</span></strong><br>
-          <strong style="padding-left: 35px; display: block; font-weight: 400;">1 Year Access to the Nessus
-            Fundamentals
-            On-Demand Video Course for 1 person. <a
-              href="https://static.tenable.com/training/ProServ/ds/PS_DS_NES_Fund_Course.pdf" target="_blank"
+            value="training" />
+          <strong>On-Demand Training -
+            <span class="course-price-nessus-fundamentals">$195</span></strong><br />
+          <strong style="padding-left: 35px; display: block; font-weight: 400">1 Year Access to the Nessus Fundamentals
+            On-Demand Video Course
+            for 1 person.
+            <a href="https://static.tenable.com/training/ProServ/ds/PS_DS_NES_Fund_Course.pdf" target="_blank"
               rel="noopener noreferrer">More info</a>.</strong>
         </label>
         <div class="textcenter">
@@ -700,10 +822,10 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
             href="https://store.tenable.com/1479/?scope=checkout&cart=192368&x-Source=SEM&recommendation=supportandtraining">Buy
             Now</a>
         </div>
-        <div class="textcenter" style="padding-top: 5px;">
-          <a href="https://community.tenable.com/s/products" target="_blank" rel="noopener noreferrer">Renew an
-            existing
-            license</a> | <a href="/partner-locator/resellers">Find a reseller</a>
+        <div class="textcenter" style="padding-top: 5px">
+          <a href="https://community.tenable.com/s/products" target="_blank" rel="noopener noreferrer">Renew an existing
+            license</a>
+          | <a href="/partner-locator/resellers">Find a reseller</a>
         </div>
         <p class="nessus-pro-buy-vat hidden">*VAT incl.</p>
       </form>
@@ -713,6 +835,7 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
   <!-- Nessus Pro Modal End -->
 
   <script src="https://www.tenable.com/lp/campaigns/22/main/js/jquery-3.4.1.min.js"></script>
+  <script src="https://munchkin.marketo.net/munchkin.js"></script>
   <script src="https://www.tenable.com/lp/cookie.js"></script>
   <script src="https://www.tenable.com/evaluations/api/v1/tenable/evaluations/index.js"></script>
   <script src="https://www.tenable.com/evaluations/api/v1/tenable-evals.js"></script>
@@ -721,6 +844,54 @@ pentesters, consultants, and SMBs in need of unlimited vulnerability assessments
   <!-- Try For Free & Buy Now JS Modal JS -->
   <script src="https://www.tenable.com/themes/custom/tenable/js/buy.js"></script>
   <script src="./js/script.js"></script>
+  <script type="text/javascript">
+    console.log(
+      '   ____     _                   _     _\r\n \/      \\  | |_ ___ _ __   __ _| |__ | | ___\r\n\/   \/\\   \\ | __\/ _ \\ \'_ \\ \/ _` | \'_ \\| |\/ _ \\\r\n\\   \\\/   \/ | ||  __\/ | | | (_| | |_) | |  __\/\r\n \\ ____ \/   \\__\\___|_| |_|\\__,_|_.__\/|_|\\___|\r\n\r\nIf you\'re looking at this, we want to hire you.\r\nhttps:\/\/tenable.com\/careers'
+    );
+
+  </script>
+  <!-- GCLID Script started  -->
+  <script>
+    function getParam(p) {
+      var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+      return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
+
+    function getExpiryRecord(value) {
+      var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+
+      var expiryDate = new Date().getTime() + expiryPeriod;
+      return {
+        value: value,
+        expiryDate: expiryDate
+      };
+    }
+
+    function addGclid() {
+      var gclidParam = getParam('gclid');
+      var gclidRecord = null;
+      var currGclidFormField;
+
+      var gclsrcParam = getParam('gclsrc');
+      var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
+
+      if (gclidParam && isGclsrcValid) {
+        gclidRecord = getExpiryRecord(gclidParam);
+        localStorage.setItem('gclid', JSON.stringify(gclidRecord));
+      }
+
+      var gclid = gclidRecord || JSON.parse(localStorage.getItem('gclid'));
+      var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
+
+      if (isGclidValid) {
+        jQuery('[name="GCLID__c"]').attr('value', gclid.value)
+      }
+
+    }
+    window.addEventListener('load', addGclid);
+
+  </script>
+  <!-- GCLID Script ended -->
 </body>
 
 </html>

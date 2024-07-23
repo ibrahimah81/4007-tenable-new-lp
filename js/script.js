@@ -156,3 +156,72 @@ $(function () {
   });
 
 });
+// Instanced version of above
+$('.js-tab-wrap .js-tab').removeAttr('href').click(function () {
+  var num_id = $(this).attr('class').match(/tab-(\d+)/)[1];
+  $(this).parents('.js-tab-wrap').find('.js-tab, .js-tab-content').removeClass('js-active');
+  $(this).addClass('js-active');
+  $(this).closest('.js-tab-wrap').find('.content-' + num_id).addClass('js-active');
+});
+
+
+// Fix for try/buy modal
+$('.vm-buy-link').click(function () {
+  $('.tenableio-vm .js-tab, .tenableio-vm .js-tab-content').removeClass('js-active');
+  $('.tenableio-vm .buy-tab, .tenableio-vm .js-tab-content.buy').addClass('js-active');
+});
+$('.vm-try-link').click(function () {
+  $('.tenableio-vm .js-tab, .tenableio-vm .js-tab-content').removeClass('js-active');
+  $('.tenableio-vm .try-tab, .tenableio-vm .js-tab-content.try').addClass('js-active');
+});
+
+function CheckURL() {
+	
+	function getQueryParam(parameterName) {
+	var currentUrl = window.location.href;
+	if (currentUrl.indexOf('?') !== -1) {
+		var queryParams = currentUrl.split('?')[1].split('&');
+		for (var i = 0; i < queryParams.length; i++) {
+			var param = queryParams[i].split('=');
+			if (param[0] === parameterName) {
+				return decodeURIComponent(param[1]);
+			}
+		}
+	}
+	return null;
+	}
+
+	// Define the parameter you want to check
+	var targetParam = 'source'; // Replace with your parameter name
+
+	// Check for the specified parameter in the URL
+	var paramValue = getQueryParam(targetParam);
+    var Checkattr = setInterval(function(){
+        if (paramValue == 'linkedin') {
+            $('.pro-link').attr({
+                'data-promotion':"Linkedinlanding",
+                'href':'https://store.tenable.com/1479/?scope=checkout&cart=242098&x-Source=linkedin&recommendation=supportandtraining',
+                'data-source': 'linkedin'
+            });
+            $('.expert-link').attr({
+                'data-promotion':"Linkedinlanding",
+                'href':'https://store.tenable.com/1479/?scope=checkout&cart=192368&x-Source=linkedin&recommendation=supportandtraining',
+                'data-source': 'linkedin'
+            });
+        }
+
+        else if(paramValue == 'display') {
+            $('.pro-link').attr({
+                'data-promotion':"Displaylanding",
+                'href':'https://store.tenable.com/1479/?scope=checkout&cart=242098&x-Source=display&recommendation=supportandtraining',
+                'data-source': 'display'
+            });
+            $('.expert-link').attr({
+                'data-promotion':"Displaylanding",
+                'href':'https://store.tenable.com/1479/?scope=checkout&cart=192368&x-Source=display&recommendation=supportandtraining',
+                'data-source': 'display'
+            });
+        }
+        clearInterval(Checkattr)
+    },200)
+}
