@@ -231,6 +231,7 @@ a {
 
 /* section customer slider started  */
 .customer-reviews {
+  position: relative;
   background-image: url("../images/testimonials-bg-desktop.svg");
   background-position: center;
   background-size: cover;
